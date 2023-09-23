@@ -4,6 +4,7 @@ const fundo = window.document.getElementById("area")
 const resp = window.document.getElementById("textinho")
 
 nao.addEventListener("mouseenter", entrar)
+nao.addEventListener("touchstart", entrar)
 let estado = -1
 
 function entrar(){
